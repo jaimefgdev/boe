@@ -1,0 +1,857 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": {
+        "sumario": {
+            "metadatos": {
+                "publicacion": "BORME",
+                "fecha_publicacion": "20261008"
+            },
+            "diario": [
+                {
+                    "numero": "195",
+                    "sumario_diario": {
+                        "identificador": "BORME-S-2026-195",
+                        "url_pdf": {
+                            "szBytes": "228116",
+                            "szKBytes": "223",
+                            "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-S-2026-195.pdf"
+                        }
+                    },
+                    "seccion": [
+                        {
+                            "codigo": "A",
+                            "nombre": "SECCI\u00d3N PRIMERA. Empresarios. Actos inscritos",
+                            "item": [
+                                {
+                                    "identificador": "BORME-A-2026-195-02",
+                                    "titulo": "ALBACETE",
+                                    "url_pdf": {
+                                        "szBytes": "173620",
+                                        "szKBytes": "170",
+                                        "pagina_inicial": "47129",
+                                        "pagina_final": "47130",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-02.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-02",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-02"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-03",
+                                    "titulo": "ALICANTE\/ALACANT",
+                                    "url_pdf": {
+                                        "szBytes": "310192",
+                                        "szKBytes": "303",
+                                        "pagina_inicial": "47131",
+                                        "pagina_final": "47139",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-03.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-03",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-03"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-04",
+                                    "titulo": "ALMER\u00cdA",
+                                    "url_pdf": {
+                                        "szBytes": "195743",
+                                        "szKBytes": "191",
+                                        "pagina_inicial": "47140",
+                                        "pagina_final": "47142",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-04.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-04",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-04"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-06",
+                                    "titulo": "BADAJOZ",
+                                    "url_pdf": {
+                                        "szBytes": "179024",
+                                        "szKBytes": "175",
+                                        "pagina_inicial": "47143",
+                                        "pagina_final": "47144",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-06.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-06",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-06"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-07",
+                                    "titulo": "ILLES BALEARS",
+                                    "url_pdf": {
+                                        "szBytes": "212584",
+                                        "szKBytes": "208",
+                                        "pagina_inicial": "47145",
+                                        "pagina_final": "47148",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-07.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-07",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-07"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-08",
+                                    "titulo": "BARCELONA",
+                                    "url_pdf": {
+                                        "szBytes": "627537",
+                                        "szKBytes": "613",
+                                        "pagina_inicial": "47149",
+                                        "pagina_final": "47175",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-08.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-08",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-08"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-13",
+                                    "titulo": "CIUDAD REAL",
+                                    "url_pdf": {
+                                        "szBytes": "176787",
+                                        "szKBytes": "173",
+                                        "pagina_inicial": "47176",
+                                        "pagina_final": "47177",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-13.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-13",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-13"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-14",
+                                    "titulo": "C\u00d3RDOBA",
+                                    "url_pdf": {
+                                        "szBytes": "192056",
+                                        "szKBytes": "188",
+                                        "pagina_inicial": "47178",
+                                        "pagina_final": "47180",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-14.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-14",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-14"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-15",
+                                    "titulo": "A CORU\u00d1A",
+                                    "url_pdf": {
+                                        "szBytes": "221833",
+                                        "szKBytes": "217",
+                                        "pagina_inicial": "47181",
+                                        "pagina_final": "47184",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-15.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-15",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-15"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-17",
+                                    "titulo": "GIRONA",
+                                    "url_pdf": {
+                                        "szBytes": "298738",
+                                        "szKBytes": "292",
+                                        "pagina_inicial": "47185",
+                                        "pagina_final": "47192",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-17.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-17",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-17"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-18",
+                                    "titulo": "GRANADA",
+                                    "url_pdf": {
+                                        "szBytes": "215400",
+                                        "szKBytes": "210",
+                                        "pagina_inicial": "47193",
+                                        "pagina_final": "47196",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-18.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-18",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-18"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-19",
+                                    "titulo": "GUADALAJARA",
+                                    "url_pdf": {
+                                        "szBytes": "201684",
+                                        "szKBytes": "197",
+                                        "pagina_inicial": "47197",
+                                        "pagina_final": "47199",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-19.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-19",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-19"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-21",
+                                    "titulo": "HUELVA",
+                                    "url_pdf": {
+                                        "szBytes": "173947",
+                                        "szKBytes": "170",
+                                        "pagina_inicial": "47200",
+                                        "pagina_final": "47201",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-21.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-21",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-21"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-22",
+                                    "titulo": "HUESCA",
+                                    "url_pdf": {
+                                        "szBytes": "160522",
+                                        "szKBytes": "157",
+                                        "pagina_inicial": "47202",
+                                        "pagina_final": "47202",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-22.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-22",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-22"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-23",
+                                    "titulo": "JA\u00c9N",
+                                    "url_pdf": {
+                                        "szBytes": "180696",
+                                        "szKBytes": "176",
+                                        "pagina_inicial": "47203",
+                                        "pagina_final": "47204",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-23.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-23",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-23"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-24",
+                                    "titulo": "LE\u00d3N",
+                                    "url_pdf": {
+                                        "szBytes": "184070",
+                                        "szKBytes": "180",
+                                        "pagina_inicial": "47205",
+                                        "pagina_final": "47206",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-24.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-24",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-24"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-25",
+                                    "titulo": "LLEIDA",
+                                    "url_pdf": {
+                                        "szBytes": "192982",
+                                        "szKBytes": "188",
+                                        "pagina_inicial": "47207",
+                                        "pagina_final": "47209",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-25.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-25",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-25"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-27",
+                                    "titulo": "LUGO",
+                                    "url_pdf": {
+                                        "szBytes": "178196",
+                                        "szKBytes": "174",
+                                        "pagina_inicial": "47210",
+                                        "pagina_final": "47211",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-27.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-27",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-27"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-28",
+                                    "titulo": "MADRID",
+                                    "url_pdf": {
+                                        "szBytes": "927725",
+                                        "szKBytes": "906",
+                                        "pagina_inicial": "47212",
+                                        "pagina_final": "47253",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-28.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-28",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-28"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-29",
+                                    "titulo": "M\u00c1LAGA",
+                                    "url_pdf": {
+                                        "szBytes": "354911",
+                                        "szKBytes": "347",
+                                        "pagina_inicial": "47254",
+                                        "pagina_final": "47264",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-29.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-29",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-29"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-30",
+                                    "titulo": "MURCIA",
+                                    "url_pdf": {
+                                        "szBytes": "233718",
+                                        "szKBytes": "228",
+                                        "pagina_inicial": "47265",
+                                        "pagina_final": "47269",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-30.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-30",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-30"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-32",
+                                    "titulo": "OURENSE",
+                                    "url_pdf": {
+                                        "szBytes": "174866",
+                                        "szKBytes": "171",
+                                        "pagina_inicial": "47270",
+                                        "pagina_final": "47271",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-32.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-32",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-32"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-33",
+                                    "titulo": "ASTURIAS",
+                                    "url_pdf": {
+                                        "szBytes": "226052",
+                                        "szKBytes": "221",
+                                        "pagina_inicial": "47272",
+                                        "pagina_final": "47276",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-33.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-33",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-33"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-34",
+                                    "titulo": "PALENCIA",
+                                    "url_pdf": {
+                                        "szBytes": "177828",
+                                        "szKBytes": "174",
+                                        "pagina_inicial": "47277",
+                                        "pagina_final": "47278",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-34.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-34",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-34"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-36",
+                                    "titulo": "PONTEVEDRA",
+                                    "url_pdf": {
+                                        "szBytes": "192930",
+                                        "szKBytes": "188",
+                                        "pagina_inicial": "47279",
+                                        "pagina_final": "47281",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-36.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-36",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-36"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-40",
+                                    "titulo": "SEGOVIA",
+                                    "url_pdf": {
+                                        "szBytes": "162452",
+                                        "szKBytes": "159",
+                                        "pagina_inicial": "47282",
+                                        "pagina_final": "47282",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-40.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-40",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-40"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-41",
+                                    "titulo": "SEVILLA",
+                                    "url_pdf": {
+                                        "szBytes": "239095",
+                                        "szKBytes": "233",
+                                        "pagina_inicial": "47283",
+                                        "pagina_final": "47287",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-41.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-41",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-41"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-43",
+                                    "titulo": "TARRAGONA",
+                                    "url_pdf": {
+                                        "szBytes": "237513",
+                                        "szKBytes": "232",
+                                        "pagina_inicial": "47288",
+                                        "pagina_final": "47292",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-43.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-43",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-43"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-45",
+                                    "titulo": "TOLEDO",
+                                    "url_pdf": {
+                                        "szBytes": "212973",
+                                        "szKBytes": "208",
+                                        "pagina_inicial": "47293",
+                                        "pagina_final": "47296",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-45.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-45",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-45"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-47",
+                                    "titulo": "VALLADOLID",
+                                    "url_pdf": {
+                                        "szBytes": "186435",
+                                        "szKBytes": "182",
+                                        "pagina_inicial": "47297",
+                                        "pagina_final": "47299",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-47.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-47",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-47"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-48",
+                                    "titulo": "BIZKAIA",
+                                    "url_pdf": {
+                                        "szBytes": "410394",
+                                        "szKBytes": "401",
+                                        "pagina_inicial": "47300",
+                                        "pagina_final": "47313",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-48.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-48",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-48"
+                                },
+                                {
+                                    "identificador": "BORME-A-2026-195-99",
+                                    "titulo": "\u00cdNDICE ALFAB\u00c9TICO DE SOCIEDADES",
+                                    "url_pdf": {
+                                        "szBytes": "1579467",
+                                        "szKBytes": "1542",
+                                        "pagina_inicial": "47314",
+                                        "pagina_final": "47352",
+                                        "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-A-2026-195-99.pdf"
+                                    },
+                                    "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-A-2026-195-99",
+                                    "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-A-2026-195-99"
+                                }
+                            ]
+                        },
+                        {
+                            "codigo": "C",
+                            "nombre": "SECCI\u00d3N SEGUNDA. Anuncios y avisos legales",
+                            "apartado": [
+                                {
+                                    "codigo": "001",
+                                    "nombre": "BALANCES",
+                                    "item": {
+                                        "identificador": "BORME-C-2026-5351",
+                                        "titulo": "OPTIMUM BERLIN PROPERTY, S.A. EN LIQUIDACI\u00d3N",
+                                        "url_pdf": {
+                                            "szBytes": "192682",
+                                            "szKBytes": "188",
+                                            "pagina_inicial": "6641",
+                                            "pagina_final": "6641",
+                                            "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5351.pdf"
+                                        },
+                                        "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5351",
+                                        "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5351"
+                                    }
+                                },
+                                {
+                                    "codigo": "002",
+                                    "nombre": "CONVOCATORIAS DE JUNTAS",
+                                    "item": [
+                                        {
+                                            "identificador": "BORME-C-2026-5352",
+                                            "titulo": "ALARCAM, S.A.",
+                                            "url_pdf": {
+                                                "szBytes": "191651",
+                                                "szKBytes": "187",
+                                                "pagina_inicial": "6642",
+                                                "pagina_final": "6643",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5352.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5352",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5352"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5353",
+                                            "titulo": "AUTOS PACO, S.A.",
+                                            "url_pdf": {
+                                                "szBytes": "190452",
+                                                "szKBytes": "186",
+                                                "pagina_inicial": "6644",
+                                                "pagina_final": "6645",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5353.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5353",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5353"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5354",
+                                            "titulo": "COMPA\u00d1\u00cdA AGR\u00cdCOLA DEL GUADAIRA,S.A.",
+                                            "url_pdf": {
+                                                "szBytes": "188444",
+                                                "szKBytes": "184",
+                                                "pagina_inicial": "6646",
+                                                "pagina_final": "6646",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5354.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5354",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5354"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5355",
+                                            "titulo": "EMPRESA PARA LA GESTI\u00d3N DE RESIDUOS INDUSTRIALES, S.A., S.M.E. M.P.",
+                                            "url_pdf": {
+                                                "szBytes": "186551",
+                                                "szKBytes": "182",
+                                                "pagina_inicial": "6647",
+                                                "pagina_final": "6647",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5355.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5355",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5355"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5356",
+                                            "titulo": "EXCAVACACIONES Y CONTRATAS CECA, S.L.",
+                                            "url_pdf": {
+                                                "szBytes": "187905",
+                                                "szKBytes": "184",
+                                                "pagina_inicial": "6648",
+                                                "pagina_final": "6648",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5356.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5356",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5356"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5357",
+                                            "titulo": "KELTIA PRODUCCIONS, S.L.",
+                                            "url_pdf": {
+                                                "szBytes": "191407",
+                                                "szKBytes": "187",
+                                                "pagina_inicial": "6649",
+                                                "pagina_final": "6650",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5357.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5357",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5357"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5358",
+                                            "titulo": "NOKIA SPAIN, S.A.",
+                                            "url_pdf": {
+                                                "szBytes": "186282",
+                                                "szKBytes": "182",
+                                                "pagina_inicial": "6651",
+                                                "pagina_final": "6651",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5358.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5358",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5358"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5359",
+                                            "titulo": "QUINTA DE LA TORRE, S.A.",
+                                            "url_pdf": {
+                                                "szBytes": "187413",
+                                                "szKBytes": "183",
+                                                "pagina_inicial": "6652",
+                                                "pagina_final": "6652",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5359.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5359",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5359"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5360",
+                                            "titulo": "TRANSPORTES DOPICO VILABOY, S.A.",
+                                            "url_pdf": {
+                                                "szBytes": "191120",
+                                                "szKBytes": "187",
+                                                "pagina_inicial": "6653",
+                                                "pagina_final": "6654",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5360.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5360",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5360"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "003",
+                                    "nombre": "FUSIONES Y ABSORCIONES DE EMPRESAS",
+                                    "item": [
+                                        {
+                                            "identificador": "BORME-C-2026-5361",
+                                            "titulo": "ASECHA, S.L.U. (SOCIEDAD ABSORBENTE) \r\nTARRACO PRIM 1800, S.L.U. (SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "188091",
+                                                "szKBytes": "184",
+                                                "pagina_inicial": "6655",
+                                                "pagina_final": "6655",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5361.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5361",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5361"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5362",
+                                            "titulo": "BADIAPP TECHNOLOGIES, S.L. \r\n(SOCIEDAD ABSORBENTE) \r\nCATERINA PROPERTY MANAGEMENT, S.L. \r\n(SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "187176",
+                                                "szKBytes": "183",
+                                                "pagina_inicial": "6656",
+                                                "pagina_final": "6656",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5362.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5362",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5362"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5363",
+                                            "titulo": "CONCENTRACI\u00d3N Y VENTA INDUSTRIAL DE VEH\u00cdCULOS, S.L. \r\n(SOCIEDAD ABSORBENTE) \r\nMOTORTRANS, S.A.U. \r\n(SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "188447",
+                                                "szKBytes": "184",
+                                                "pagina_inicial": "6657",
+                                                "pagina_final": "6657",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5363.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5363",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5363"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5364",
+                                            "titulo": "FSL DESARROLLOS RENOVABLES, S.L. \r\n(SOCIEDAD ABSORBENTE) \r\nFSL ASSET MANAGEMENT, S.L. \r\n(SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "186464",
+                                                "szKBytes": "182",
+                                                "pagina_inicial": "6658",
+                                                "pagina_final": "6658",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5364.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5364",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5364"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5365",
+                                            "titulo": "GRUPO OSBORNE, S.A.U. \r\n(SOCIEDAD ABSORBENTE) \r\nATLANTIC GALICIAN SPIRITS, S.L.U. \r\n(SOCIEDAD ABSORBIDA),",
+                                            "url_pdf": {
+                                                "szBytes": "186377",
+                                                "szKBytes": "182",
+                                                "pagina_inicial": "6659",
+                                                "pagina_final": "6659",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5365.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5365",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5365"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5366",
+                                            "titulo": "JAVEA 1800, S.L.U. (SOCIEDAD ABSORBENTE) \r\nVILLAMED LE\u00d3N 5, S.L.U. (SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "188185",
+                                                "szKBytes": "184",
+                                                "pagina_inicial": "6660",
+                                                "pagina_final": "6660",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5366.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5366",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5366"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5367",
+                                            "titulo": "JETNASA, S.A. (SOCIEDAD ABSORBENTE) \r\nGINER 2000, S.L.U. (SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "187305",
+                                                "szKBytes": "183",
+                                                "pagina_inicial": "6661",
+                                                "pagina_final": "6661",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5367.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5367",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5367"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5368",
+                                            "titulo": "MONASTERIO DE BOLTA\u00d1A, S.L.U. (SOCIEDAD ABSORBENTE) \r\nJACA GESTI\u00d3N 2018, S.L. (SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "189097",
+                                                "szKBytes": "185",
+                                                "pagina_inicial": "6662",
+                                                "pagina_final": "6662",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5368.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5368",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5368"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5369",
+                                            "titulo": "NAMASA RENTA, S.L.U. \r\n(SOCIEDAD ABSORBENTE) \r\nNAVARRO Y MACHADO, S.L.U. \r\n(SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "185934",
+                                                "szKBytes": "182",
+                                                "pagina_inicial": "6663",
+                                                "pagina_final": "6663",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5369.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5369",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5369"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5370",
+                                            "titulo": "RECABA INVERSIONES TUR\u00cdSTICAS, S.L.U. \r\n(SOCIEDAD ABSORBENTE) \r\nRESTAURANTE LA PEPICA, S.L.U. \r\n(SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "188166",
+                                                "szKBytes": "184",
+                                                "pagina_inicial": "6664",
+                                                "pagina_final": "6664",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5370.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5370",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5370"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5371",
+                                            "titulo": "RUPRIM 1800, S.L.U. (SOCIEDAD ABSORBENTE) \r\nPIEMONTESA GOURMET BATAN, S.L.U. \r\nHOSTELERIA Y RESTAURACI\u00d3N GRUPO 1800, S.L.U. (SOCIEDADES ABSORBIDAS)",
+                                            "url_pdf": {
+                                                "szBytes": "191910",
+                                                "szKBytes": "187",
+                                                "pagina_inicial": "6665",
+                                                "pagina_final": "6666",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5371.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5371",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5371"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5372",
+                                            "titulo": "SERVINTIA CONSULTORES, S.L. (SOCIEDAD ABSORBENTE) READY TO GO ASESORES CORREDUR\u00cdA DE SEGUROS, S.L. (SOCIEDAD ABSORBIDA)",
+                                            "url_pdf": {
+                                                "szBytes": "188854",
+                                                "szKBytes": "184",
+                                                "pagina_inicial": "6667",
+                                                "pagina_final": "6667",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5372.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5372",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5372"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "004",
+                                    "nombre": "ESCISI\u00d3N DE EMPRESAS",
+                                    "item": [
+                                        {
+                                            "identificador": "BORME-C-2026-5373",
+                                            "titulo": "LED DREAM, S.L.U. \r\n(SOCIEDAD ESCINDIDA) \r\nAURALIS VISION GROUP, S.L. \r\n(SOCIEDAD BENEFICIARIA)",
+                                            "url_pdf": {
+                                                "szBytes": "188591",
+                                                "szKBytes": "184",
+                                                "pagina_inicial": "6668",
+                                                "pagina_final": "6668",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5373.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5373",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5373"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5374",
+                                            "titulo": "URZANTE, S.L. \r\n(SOCIEDAD ESCINDIDA) \r\nCA\u00d1ALETE, S.L. \r\n(SOCIEDAD BENEFICIARIA)",
+                                            "url_pdf": {
+                                                "szBytes": "186310",
+                                                "szKBytes": "182",
+                                                "pagina_inicial": "6669",
+                                                "pagina_final": "6669",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5374.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5374",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5374"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "009",
+                                    "nombre": "TRANSFORMACI\u00d3N DE EMPRESAS",
+                                    "item": {
+                                        "identificador": "BORME-C-2026-5375",
+                                        "titulo": "TACMAN 2000,S.A.",
+                                        "url_pdf": {
+                                            "szBytes": "187138",
+                                            "szKBytes": "183",
+                                            "pagina_inicial": "6670",
+                                            "pagina_final": "6670",
+                                            "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5375.pdf"
+                                        },
+                                        "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5375",
+                                        "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5375"
+                                    }
+                                },
+                                {
+                                    "codigo": "010",
+                                    "nombre": "AUMENTO DE CAPITAL",
+                                    "item": [
+                                        {
+                                            "identificador": "BORME-C-2026-5376",
+                                            "titulo": "MIQUEL Y COSTAS & MIQUEL S.A.",
+                                            "url_pdf": {
+                                                "szBytes": "199323",
+                                                "szKBytes": "195",
+                                                "pagina_inicial": "6671",
+                                                "pagina_final": "6673",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5376.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5376",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5376"
+                                        },
+                                        {
+                                            "identificador": "BORME-C-2026-5377",
+                                            "titulo": "UNI\u00d3 ESPORTIVA CORNELL\u00c0, S.A.D",
+                                            "url_pdf": {
+                                                "szBytes": "191262",
+                                                "szKBytes": "187",
+                                                "pagina_inicial": "6674",
+                                                "pagina_final": "6675",
+                                                "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5377.pdf"
+                                            },
+                                            "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5377",
+                                            "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5377"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "codigo": "099",
+                                    "nombre": "OTROS ANUNCIOS Y AVISOS LEGALES",
+                                    "item": {
+                                        "identificador": "BORME-C-2026-5378",
+                                        "titulo": "AGRONOVA BIOTECH, S.L.U. \r\n(SOCIEDAD TRANSFORMADA Y ABSORBENTE) \r\nBIDCO 85, S.L.U. \r\n(SOCIEDAD ABSORBIDA)",
+                                        "url_pdf": {
+                                            "szBytes": "186856",
+                                            "szKBytes": "182",
+                                            "pagina_inicial": "6676",
+                                            "pagina_final": "6676",
+                                            "texto": "https:\/\/www.boe.es\/borme\/dias\/2026\/10\/08\/pdfs\/BORME-C-2026-5378.pdf"
+                                        },
+                                        "url_html": "https:\/\/www.boe.es\/diario_borme\/txt.php?id=BORME-C-2026-5378",
+                                        "url_xml": "https:\/\/www.boe.es\/diario_borme\/xml.php?id=BORME-C-2026-5378"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

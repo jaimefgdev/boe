@@ -1,0 +1,98 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": [
+        {
+            "fecha_actualizacion": "20261008T131218Z",
+            "identificador": "BOE-A-2014-4742",
+            "ambito": {
+                "codigo": "1",
+                "texto": "Estatal"
+            },
+            "departamento": {
+                "codigo": "9221",
+                "texto": "Ministerio de Econom\u00eda y Competitividad"
+            },
+            "rango": {
+                "codigo": "1340",
+                "texto": "Real Decreto"
+            },
+            "fecha_disposicion": "20140505",
+            "numero_oficial": "304\/2014",
+            "titulo": "Real Decreto 304\/2014, de 5 de mayo, por el que se aprueba el Reglamento de la Ley 10\/2010, de 28 de abril, de prevenci\u00f3n del blanqueo de capitales y de la financiaci\u00f3n del terrorismo.",
+            "diario": "Bolet\u00edn Oficial del Estado",
+            "fecha_publicacion": "20140506",
+            "diario_numero": "110",
+            "fecha_vigencia": "20140506",
+            "vigencia_agotada": "N",
+            "estado_consolidacion": {
+                "codigo": "3",
+                "texto": "Finalizado"
+            },
+            "url_eli": "https:\/\/www.boe.es\/eli\/es\/rd\/2014\/05\/05\/304",
+            "url_html_consolidada": "https:\/\/www.boe.es\/buscar\/act.php?id=BOE-A-2014-4742"
+        },
+        {
+            "fecha_actualizacion": "20261008T114535Z",
+            "identificador": "BOE-A-1980-8650",
+            "ambito": {
+                "codigo": "1",
+                "texto": "Estatal"
+            },
+            "departamento": {
+                "codigo": "7723",
+                "texto": "Jefatura del Estado"
+            },
+            "rango": {
+                "codigo": "1300",
+                "texto": "Ley"
+            },
+            "fecha_disposicion": "19800422",
+            "numero_oficial": "15\/1980",
+            "titulo": "Ley 15\/1980, de 22 de abril, de creaci\u00f3n del Consejo de Seguridad Nuclear.",
+            "diario": "Bolet\u00edn Oficial del Estado",
+            "fecha_publicacion": "19800425",
+            "diario_numero": "100",
+            "fecha_vigencia": "19800515",
+            "vigencia_agotada": "N",
+            "estado_consolidacion": {
+                "codigo": "3",
+                "texto": "Finalizado"
+            },
+            "url_eli": "https:\/\/www.boe.es\/eli\/es\/l\/1980\/04\/22\/15",
+            "url_html_consolidada": "https:\/\/www.boe.es\/buscar\/act.php?id=BOE-A-1980-8650"
+        },
+        {
+            "fecha_actualizacion": "20261008T114204Z",
+            "identificador": "BOE-A-2003-20977",
+            "ambito": {
+                "codigo": "1",
+                "texto": "Estatal"
+            },
+            "departamento": {
+                "codigo": "7723",
+                "texto": "Jefatura del Estado"
+            },
+            "rango": {
+                "codigo": "1300",
+                "texto": "Ley"
+            },
+            "fecha_disposicion": "20031117",
+            "numero_oficial": "38\/2003",
+            "titulo": "Ley 38\/2003, de 17 de noviembre, General de Subvenciones.",
+            "diario": "Bolet\u00edn Oficial del Estado",
+            "fecha_publicacion": "20031118",
+            "diario_numero": "276",
+            "fecha_vigencia": "20040218",
+            "vigencia_agotada": "N",
+            "estado_consolidacion": {
+                "codigo": "3",
+                "texto": "Finalizado"
+            },
+            "url_eli": "https:\/\/www.boe.es\/eli\/es\/l\/2003\/11\/17\/38",
+            "url_html_consolidada": "https:\/\/www.boe.es\/buscar\/act.php?id=BOE-A-2003-20977"
+        }
+    ]
+}

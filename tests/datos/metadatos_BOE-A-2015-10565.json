@@ -1,0 +1,40 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": [
+        {
+            "fecha_actualizacion": "20260925T080815Z",
+            "identificador": "BOE-A-2015-10565",
+            "ambito": {
+                "codigo": "1",
+                "texto": "Estatal"
+            },
+            "departamento": {
+                "codigo": "7723",
+                "texto": "Jefatura del Estado"
+            },
+            "rango": {
+                "codigo": "1300",
+                "texto": "Ley"
+            },
+            "fecha_disposicion": "20151001",
+            "numero_oficial": "39\/2015",
+            "titulo": "Ley 39\/2015, de 1 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas.",
+            "diario": "Bolet\u00edn Oficial del Estado",
+            "fecha_publicacion": "20151002",
+            "diario_numero": "236",
+            "fecha_vigencia": "20161002",
+            "estatus_derogacion": "N",
+            "estatus_anulacion": "N",
+            "vigencia_agotada": "N",
+            "estado_consolidacion": {
+                "codigo": "3",
+                "texto": "Finalizado"
+            },
+            "url_eli": "https:\/\/www.boe.es\/eli\/es\/l\/2015\/10\/01\/39",
+            "url_html_consolidada": "https:\/\/www.boe.es\/buscar\/act.php?id=BOE-A-2015-10565"
+        }
+    ]
+}

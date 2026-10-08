@@ -1,0 +1,28 @@
+{
+ "status": {
+  "code": "200",
+  "text": "ok"
+ },
+ "data": {
+  "2": "A Coruña",
+  "3": "Abanderamiento de buques",
+  "4": "Abandono",
+  "5": "Abastecimiento de aguas",
+  "6": "Abastecimientos",
+  "8": "Abogados",
+  "9": "Abonos",
+  "10": "Abordajes",
+  "11": "Aborto",
+  "13": "Abstención",
+  "14": "Abuso del derecho",
+  "15": "Academia Aragonesa de Jurisprudencia y Legislación",
+  "16": "Academia de Ciencias Gallega",
+  "17": "Academia de España en Roma",
+  "18": "Academia de Ingeniería",
+  "19": "Academia de Sanidad Militar",
+  "20": "Academia de Suboficiales de la Policía Nacional",
+  "21": "Academia Española de Bellas Artes en Roma",
+  "22": "Academia Española de Historia Arqueología y Bellas Artes en Roma",
+  "23": "Academia Especial de Formación Básica de la Policía Nacional"
+ }
+}
