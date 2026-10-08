@@ -53,6 +53,28 @@ class TestSumario:
         assert s.disposiciones[0].departamento is None
         assert s.disposiciones[0].seccion.startswith("SECCIÓN PRIMERA")
 
+    def test_dia_con_numero_extraordinario(self, boe: BOE) -> None:
+        # 14-03-2020: número ordinario 66 y extraordinario 67 (estado de alarma).
+        s = boe.sumario("2020-03-14")
+
+        assert s.numeros == ["66", "67"]
+        assert (s.numero, s.identificador) == ("66", "BOE-S-2020-66")
+        assert len(s.disposiciones) == 419
+        alarma = next(d for d in s.disposiciones if d.identificador == "BOE-A-2020-3692")
+        assert alarma.numero == "67"
+        assert alarma.epigrafe == "Estado de alarma"
+        assert alarma.departamento is not None and alarma.departamento.startswith("MINISTERIO DE LA PRESIDENCIA")
+        assert len({d.identificador for d in s.disposiciones}) == len(s.disposiciones)
+
+    def test_borme_seccion_segunda(self, boe: BOE) -> None:
+        s = boe.sumario_borme("2026-10-08")
+
+        assert len(s.disposiciones) == 60
+        anuncios = s.de_seccion("SECCIÓN SEGUNDA")
+        assert anuncios[0].identificador == "BORME-C-2026-5351"
+        assert anuncios[0].epigrafe == "BALANCES"
+        assert any(d.epigrafe == "CONVOCATORIAS DE JUNTAS" for d in anuncios)
+
     def test_dia_sin_boe(self, boe: BOE) -> None:
         with pytest.raises(NoEncontrado, match="no existe") as error:
             boe.sumario("2026-10-04")
@@ -156,6 +178,11 @@ class TestTablas:
 
 
 class TestErrores:
+    def test_sin_conexion(self) -> None:
+        boe = BOE(url_base="http://127.0.0.1:9", timeout=2)
+        with pytest.raises(ErrorBOE, match="No se pudo conectar"):
+            boe.rangos()
+
     def test_error_del_servidor(self) -> None:
         boe = BOE(
             transporte=lambda url, accept: (

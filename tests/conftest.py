@@ -17,6 +17,7 @@ RUTAS = {
     "boe/sumario/20261008": "sumario_boe_20261008.json",
     "borme/sumario/20261008": "sumario_borme_20261008.json",
     "boe/sumario/20261004": "sumario_boe_domingo.json",
+    "boe/sumario/20200314": "sumario_boe_20200314.json",
     "legislacion-consolidada": "legislacion_busqueda.json",
     "legislacion-consolidada/id/BOE-A-2015-10565/metadatos": "metadatos_BOE-A-2015-10565.json",
     "legislacion-consolidada/id/BOE-A-2015-10565/analisis": "analisis_BOE-A-2015-10565.json",

@@ -1,6 +1,6 @@
 """Cliente de la API de datos abiertos del BOE: sumarios del BOE y del BORME y legislación consolidada."""
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .cliente import BOE, ErrorBOE, NoEncontrado
 from .modelos import (

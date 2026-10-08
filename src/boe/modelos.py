@@ -28,16 +28,25 @@ class Disposicion:
     seccion: str
     departamento: str | None
     epigrafe: str | None
+    """Epígrafe en el BOE; apartado en la sección segunda del BORME («CONVOCATORIAS DE JUNTAS»...)."""
     url_pdf: str | None
     url_html: str | None
     url_xml: str | None
     pagina_inicial: int | None = None
     pagina_final: int | None = None
+    numero: str = ""
+    """Número del diario en que se publicó (los días con número extraordinario hay más de uno)."""
 
 
 @dataclass(frozen=True)
 class Sumario:
-    """Sumario de un día del BOE o del BORME."""
+    """
+    Sumario de un día del BOE o del BORME.
+
+    Algunos días se publica, además del ordinario, uno o varios números extraordinarios: ``numeros`` los
+    recoge todos y ``disposiciones`` incluye las de todos ellos. ``numero``, ``identificador`` y ``url_pdf``
+    son los del primer número del día.
+    """
 
     diario: str
     fecha: date
@@ -45,6 +54,7 @@ class Sumario:
     identificador: str
     url_pdf: str | None
     disposiciones: list[Disposicion] = field(default_factory=list)
+    numeros: list[str] = field(default_factory=list)
 
     def secciones(self) -> list[str]:
         """Nombres de las secciones, en el orden del sumario."""
@@ -90,7 +100,12 @@ class Norma:
 
     @property
     def vigente(self) -> bool:
-        """True si la norma no está derogada, anulada ni con la vigencia agotada."""
+        """
+        True si la norma no está derogada, anulada ni con la vigencia agotada.
+
+        La API solo da el estado de derogación y anulación en la ficha (:meth:`BOE.norma`); en los resultados de
+        :meth:`BOE.buscar` se basa únicamente en la vigencia agotada.
+        """
         return not (self.vigencia_agotada or self.derogada or self.anulada)
 
 
@@ -201,15 +216,28 @@ def entero(valor: Any) -> int | None:
         return None
 
 
+def hijos(nodo: dict[str, Any], clave: str) -> list[Any]:
+    """
+    Hijos de un nodo del sumario.
+
+    Cuando un nivel tiene un solo hijo, la API lo anida a veces dentro de un campo ``texto``
+    (``{"seccion": {"texto": {"departamento": {...}}}}``); aquí se aceptan las dos formas.
+    """
+    resultado = lista(nodo.get(clave))
+    texto = nodo.get("texto")
+    if isinstance(texto, dict):
+        resultado += lista(texto.get(clave))
+    return resultado
+
+
 def sumario_desde_json(datos: dict[str, Any]) -> Sumario:
     sumario = datos["sumario"]
     metadatos = sumario["metadatos"]
-    diario = lista(sumario.get("diario"))[0]
-    sumario_diario = diario.get("sumario_diario", {})
+    diarios = sorted(lista(sumario.get("diario")), key=lambda d: entero(d.get("numero")) or 0)
     disposiciones: list[Disposicion] = []
 
-    def anadir(items: Any, seccion: str, departamento: str | None, epigrafe: str | None) -> None:
-        for item in lista(items):
+    def anadir(items: list[Any], numero: str, seccion: str, departamento: str | None, epigrafe: str | None) -> None:
+        for item in items:
             pdf = item.get("url_pdf") or {}
             disposiciones.append(
                 Disposicion(
@@ -223,28 +251,39 @@ def sumario_desde_json(datos: dict[str, Any]) -> Sumario:
                     url_xml=item.get("url_xml"),
                     pagina_inicial=entero(pdf.get("pagina_inicial")) if isinstance(pdf, dict) else None,
                     pagina_final=entero(pdf.get("pagina_final")) if isinstance(pdf, dict) else None,
+                    numero=numero,
                 )
             )
 
-    for seccion in lista(diario.get("seccion")):
-        nombre_seccion = seccion.get("nombre", "")
-        anadir(seccion.get("item"), nombre_seccion, None, None)
-        for departamento in lista(seccion.get("departamento")):
-            nombre_departamento = departamento.get("nombre")
-            anadir(departamento.get("item"), nombre_seccion, nombre_departamento, None)
-            for epigrafe in lista(departamento.get("epigrafe")):
-                anadir(epigrafe.get("item"), nombre_seccion, nombre_departamento, epigrafe.get("nombre"))
+    def recorrer(
+        nodo: dict[str, Any], numero: str, seccion: str, departamento: str | None, epigrafe: str | None
+    ) -> None:
+        anadir(hijos(nodo, "item"), numero, seccion, departamento, epigrafe)
+        for hijo in hijos(nodo, "departamento"):
+            recorrer(hijo, numero, seccion, hijo.get("nombre"), None)
+        # «epigrafe» en el BOE; «apartado» en la sección segunda del BORME (balances, convocatorias...).
+        for clave in ("epigrafe", "apartado"):
+            for hijo in hijos(nodo, clave):
+                recorrer(hijo, numero, seccion, departamento, hijo.get("nombre"))
 
+    for diario in diarios:
+        numero = str(diario.get("numero", ""))
+        for seccion in lista(diario.get("seccion")):
+            recorrer(seccion, numero, seccion.get("nombre", ""), None, None)
+
+    primero = diarios[0] if diarios else {}
+    sumario_diario = primero.get("sumario_diario", {})
     pdf = sumario_diario.get("url_pdf") or {}
     fecha_publicacion = fecha(metadatos.get("fecha_publicacion"))
     assert fecha_publicacion is not None
     return Sumario(
         diario=metadatos.get("publicacion", ""),
         fecha=fecha_publicacion,
-        numero=str(diario.get("numero", "")),
+        numero=str(primero.get("numero", "")),
         identificador=sumario_diario.get("identificador", ""),
         url_pdf=pdf.get("texto") if isinstance(pdf, dict) else pdf,
         disposiciones=disposiciones,
+        numeros=[str(d.get("numero", "")) for d in diarios],
     )
 
 

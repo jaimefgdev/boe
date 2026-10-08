@@ -38,7 +38,7 @@ Artículo 30. Cómputo de plazos.
 
 | Método | Devuelve |
 |---|---|
-| `sumario(fecha)` / `sumario_borme(fecha)` | `Sumario` del día: número, PDF y la lista de `Disposicion` con sección, departamento, epígrafe, enlaces y páginas. Filtros `de_seccion("III.")` y `buscar("texto")`. |
+| `sumario(fecha)` / `sumario_borme(fecha)` | `Sumario` del día: número, PDF y la lista de `Disposicion` con sección, departamento, epígrafe, enlaces y páginas, incluidos los números extraordinarios del día (`numeros`). Filtros `de_seccion("III.")` y `buscar("texto")`. |
 | `buscar(...)` | Lista de `Norma` de la legislación consolidada, con filtros por texto, título, rango, departamento, ámbito, materia, número oficial, vigencia y fechas, orden y paginación. |
 | `norma(id)` | Ficha de una norma: rango, departamento, fechas, vigencia, derogación, ELI. |
 | `analisis(id)` | Materias, notas y relaciones con otras normas (deroga, modifica, cita…). |

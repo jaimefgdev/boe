@@ -51,6 +51,8 @@ def _transporte_urllib(timeout: float, user_agent: str) -> Transporte:
                 return respuesta.status, respuesta.read()
         except urllib.error.HTTPError as e:
             return e.code, e.read()
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            raise ErrorBOE(f"No se pudo conectar con la API del BOE: {e}") from e
 
     return transporte
 
